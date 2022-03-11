@@ -1,7 +1,4 @@
-
-========== 9-print_comb.cprintf ==========
-
-========== #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - main block
@@ -11,19 +8,18 @@
  */
 int main(void)
 {
-int c = 0;
+	int c = 0;
 
-while (c < 10)
-{
-putchar(48 + c);
-if (c != 9)
-{
-putchar(',');
-putchar(' ');
+	while (c < 10)
+	{
+		putchar(48 + c);
+		if (c != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
-c++;
-}
-putchar('\n');
-return (0);
-}
- ==========
