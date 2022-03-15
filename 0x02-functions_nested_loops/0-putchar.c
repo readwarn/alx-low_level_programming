@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Entry block
  * Description: prints '_putchar on new line
@@ -8,6 +8,5 @@ int main(void)
 {
 	_putchar('_putchar');
     _putchar('\n');
-	
 	return (0);
 }
