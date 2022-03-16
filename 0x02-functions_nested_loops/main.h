@@ -1,5 +1,5 @@
 /* _putchar.c */
-int _putchar(void);
+int _putchar(char c);
 
 /*10 x alphabet */
 void print_alphabet(void);

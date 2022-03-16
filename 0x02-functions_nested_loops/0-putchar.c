@@ -1,15 +1,23 @@
 #include "main.h"
+
 /**
- * main - Entry block
- * Description: prints '_putchar on new line
- * Return: 0
+ * main - prints _putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-char word[8] = '_putchar'
-int i = 0;
-for (int i = 1; i <= 8; i++)
-_putchar(word[i]);
-_putchar('\n');
-return (0);
+	char word[9] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(word[i]);
+	}
+	_putchar('\n');
+
+	return (0);
 }
